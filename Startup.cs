@@ -6,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 using ValidApiCore3._1.Contexts;
 using Microsoft.EntityFrameworkCore;
 using ValidApiCore3._1.Repositories;
+using ValidApiCore3._1.validators;
 
 namespace ValidApiCore3._1
 {
@@ -24,6 +25,7 @@ namespace ValidApiCore3._1
             services.AddControllers();
             services.AddDbContext<OrderContext>(options => options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=ValidationDb;Trusted_Connection=True;"));
             services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IOrderValidator, OrderValidator>();
         }
         
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

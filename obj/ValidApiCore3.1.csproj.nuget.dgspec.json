@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\ValidApiCore3.1\\ValidApiCore3.1.csproj": {}
+    "C:\\Users\\it013\\Desktop\\ValidationApi-master\\ValidApiCore3.1.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\ValidApiCore3.1\\ValidApiCore3.1.csproj": {
+    "C:\\Users\\it013\\Desktop\\ValidationApi-master\\ValidApiCore3.1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\ValidApiCore3.1\\ValidApiCore3.1.csproj",
+        "projectUniqueName": "C:\\Users\\it013\\Desktop\\ValidationApi-master\\ValidApiCore3.1.csproj",
         "projectName": "ValidApiCore3.1",
-        "projectPath": "D:\\Projects\\ValidApiCore3.1\\ValidApiCore3.1.csproj",
+        "projectPath": "C:\\Users\\it013\\Desktop\\ValidationApi-master\\ValidApiCore3.1.csproj",
         "packagesPath": "C:\\Users\\it013\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\ValidApiCore3.1\\obj\\",
+        "outputPath": "C:\\Users\\it013\\Desktop\\ValidationApi-master\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

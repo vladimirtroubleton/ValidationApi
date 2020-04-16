@@ -8,8 +8,6 @@ namespace ValidApiCore3._1.Models
     public class OrderModel
     {
         public int Id { get; set; }
-
-    
         public string ProductName { get; set; }
 
         public string CustomerName { get; set; }

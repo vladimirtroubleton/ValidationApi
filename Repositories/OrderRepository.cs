@@ -24,6 +24,7 @@ namespace ValidApiCore3._1.Repositories
         public void CreateOrder(OrderModel order)
         {
             context.Orders.Add(order);
+            context.SaveChanges();
         }
     }
 }
